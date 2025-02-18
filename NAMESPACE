@@ -1,0 +1,8 @@
+useDynLib(PAIT, .registration = TRUE)
+importFrom(Rcpp, evalCpp)
+export(Tk_phi)
+export(Tk_cor)
+export(Tk_dcor)
+export(T_phi)
+export(T_cor)
+export(T_dcor)
